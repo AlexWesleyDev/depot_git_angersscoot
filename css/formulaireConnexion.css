@@ -1,0 +1,76 @@
+/* PARTIE 2 : FORMULAIRE  Cf formulaireConnexion*/ 
+input::placeholder{
+  color: white;
+  opacity: 0.7;
+}
+
+.formulaireConnexion {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  background-color: #3D6173;
+  border-radius: 50px;
+  padding: 250px 30px 40px;
+  margin-top: 50px;
+  width: 715px;
+  height: 600px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+
+.logoFormulaire {
+  width: 250px;
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.champDeSaisies {
+  width: 40%;
+  padding-block: 15px;
+  padding-inline: 30px;
+  margin-inline: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: #6F8F99;
+  color: white;
+  font-size: 30px;
+  outline: none;
+}
+
+.btnConnexion {
+  background-color: #F9E9DB;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 25%;
+}
+
+.Mdp_Oublié {
+  display: block;
+  margin-top: 50px;
+  font-size: 30px;
+  color: white;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.Mdp_Oublié:hover { color: #ddd; }
+
+.formulaireConnexion label {
+  display: block;
+  align-self: flex-start;
+  margin-left: 30%;
+  text-align: left;
+  color: white;
+  font-size : 30px;
+  font-family: "Codec Pro",sans-serif;
+}

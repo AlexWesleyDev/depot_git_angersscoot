@@ -1,0 +1,53 @@
+/* Importation polices externes de la page */
+@import url(' https://fonts.cdnfonts.com/css/codec-pro ');
+
+@font-face {
+    font-family: 'CodecPro';
+    src: url('fonts/codec-pro-extra-bold.woff2') format('woff2'), url('fonts/codec-pro-extra-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html { scroll-behavior: smooth;  }
+   
+
+/* Corps de la page */
+body {
+    font-family: 'CodecPro', sans-serif;
+    background-color: #3d6479;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER : Gestion de l'entete et ses elements */
+header {
+    height: 170px;
+    background-color: #2a3c53;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{ margin-left: 10%; display:flex; }
+
+header .logo h1{
+    margin-left : 20px;
+    margin-top : 40px;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header .logoCompte { margin-right: 10%; }
+
+/* FIN DU HEADER */
+
+
+
+/* PIED DE PAGE */
+
+footer{
+    background-color:#2a3c53;
+    height:500px;
+}

@@ -1,0 +1,143 @@
+/* PARTIE Inscription : FORMULAIRE  Cf formulaireInscription*/ 
+
+.formulaireInscription {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  background-color : #2a3c53;
+  border-radius: 50px;
+  padding: 250px 30px 40px;
+  margin-top: 50px;
+  width: 850px;
+  height: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.formulaireInscription .logoFormulaire {
+  width: 250px;
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.champDeSaisies {
+  width: 40%;
+  padding-block: 15px;
+  padding-inline: 30px;
+  margin-inline: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: #6F8F99;
+  color: white;
+  font-size: 30px;
+  outline: none;
+}
+
+.btnInscription {
+  background-color: #F9E9DB;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 25%;
+}
+
+.formulaireInscription label {
+  display: block;
+  align-self: flex-start;
+  margin-left: 30%;
+  text-align: left;
+  color: white;
+  font-size : 30px;
+  font-family: "Codec Pro",sans-serif;
+}
+
+/* PARTIE GESTION DE LA VERIFICATION DEU MOT DE PASSE */
+.conteneur-motdepasse{
+  position: relative;
+  width: 400px;
+  height: 140px;
+}
+
+.conteneur-motdepasse input{
+  width: 334px;
+  margin-left: 6px;
+}
+
+.afficher-motdepasse {
+  position: absolute;
+  top: 59%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: white;
+  opacity: 0.8;
+  font-size: 35px;
+}
+
+#barre-securite {
+  background-color: #ddd;
+  width: 360px;
+  height: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+
+#remplissage-securite {
+  height: 100%;
+  width: 0%;
+  background-color: red;
+  transition: width 0.3s, background-color 0.3s;  
+  border-radius: 10px;
+}
+
+
+#texte-securite {
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Codec Pro",sans-serif;
+}
+
+.criteres p {
+  margin: 3px 0;
+  font-size: 30px;
+  font-family: "Codec Pro",sans-serif;
+  font-weight: 500;
+}
+
+.valide {
+  color: green;
+}
+
+.invalide {
+  color: red;
+}
+
+/* PARTIE GESTION DU CONTENEUR DES CGU */
+.conditionsGénérales {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.conditionsGénérales input {
+  width: 35px;
+  height: 50px;
+  margin-left: 130px;
+}
+
+.conditionsGénérales p {
+  font-size: 30px;
+  font-style: italic;
+  text-decoration: underline;
+  margin-left: 10px;
+}
